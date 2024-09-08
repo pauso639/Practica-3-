@@ -1,0 +1,22 @@
+/*Sofía Paulina López González 
+Programa de pares de 0 a 100*/
+#include <stdio.h>
+include <math.h>
+
+int i;
+
+int main ()
+{
+  printf ("Los numeros pares entre 0 y 100 son: ");
+
+  for (i = 0; i <=100; i++)
+  {
+    if (i % 2 == 0)
+    {
+        prinf(" &d ", i);
+    }
+  }
+
+  printf("\nQ");
+  return 0;
+} 
